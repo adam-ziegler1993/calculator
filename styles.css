@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#calculator {
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    border: grey solid 1px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#display {
+    background-color: yellow;
+    color: black;
+    height: 50px;
+    width: 150px;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+button {
+    color: purple;
+    background-color: white;
+    border: solid red 1px;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    margin: 5px;
+    border-radius: 50px;
+
+}
+
+button:hover {
+    background-color: antiquewhite;
+}
